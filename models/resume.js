@@ -4,15 +4,22 @@ const resumeSchema = new Schema(
     {
         name: String,
         description: String,
-        projects: [{
-            type: Schema.Types.ObjectId,
-            ref: 'project'
-        }],
         experience: [{
             type: Schema.Types.ObjectId,
             ref: 'experience'
         }],
-
+        education: {
+            type: Schema.Types.ObjectId,
+            ref: "school"
+        },
+        projects: [{
+            type: Schema.Types.ObjectId,
+            ref: 'projects'
+        }],
+        contact: [{
+            type: Schema.Types.ObjectId,
+            ref: "contact"
+        }]
     }
 )
 

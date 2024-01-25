@@ -3,7 +3,7 @@ const {Schema, model} = require("mongoose")
 const schoolSchema = new Schema(
     {
         school: String,
-        duration: {startDate: Date, endDate: Date},
+        duration: {startDate: String, endDate: String},
         current: Boolean,
         description: String,
         major: String
