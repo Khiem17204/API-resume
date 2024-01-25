@@ -18,7 +18,7 @@ This is a REST API that accesses a MongoDB instance hosted in an AWS EC2.
   sudo apt install curl
   ```
 2. Verify you have curl installed
-  ```sh
+```sh
   curl --version
   ```
 3. Access my resume/guide through your terminal
@@ -28,7 +28,7 @@ This is a REST API that accesses a MongoDB instance hosted in an AWS EC2.
 ### Using Postman/API clients
 
 You can access my resume through
-  ```sh
+```sh
   http://3.21.204.238:3000/
   ```
 
